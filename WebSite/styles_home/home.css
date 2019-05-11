@@ -1,0 +1,59 @@
+body 
+{
+    direction:rtl;
+    
+    
+}
+#container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+    width: 960px; 
+    margin: 0 auto;
+  
+}
+/* עיצוב תפריט ניווט*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #838681;
+    border: 0.6px solid white;
+   border-radius: 15px;
+   font-size: 15px;
+   position: sticky;
+   top: 0;
+   Z-index :4;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+  }
+  
+  li a:hover:not(.currentpage) {
+    background-color: #111;
+  }
+  
+.currentpage {background-color: salmon;
+}
+  
+  /* עיצוב תפריט ניווט*/
+h1 {
+    font-size: 40px;
+    color: black;
+    text-shadow: -1px 0 wheat, 0 1px wheat, 1px 0 wheat, 0 -1px wheat;
+}
+  p {
+    font-size: 25px;
+   color: #ff0080;
+   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  }
